@@ -1,0 +1,32 @@
+{
+    "@context": [
+        "https://w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:raw.githubusercontent.com:redongjun",
+    "publicKey": [
+        {
+            "id": "did:web:raw.githubusercontent.com:redongjun#z12KxfHu",
+            "controller": "did:web:raw.githubusercontent.com:redongjun",
+            "type": "JsonWebKey2020",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "P-256",
+                "x": "Eb3vpCclYt7HMnYeIZbqE1kvJtzcbPPYlDVYySGGTzM",
+                "y": "QGIIPRbhHH535mFKunFFIbNBxI2WL1fjYr1QGRbQOzc"
+            }
+        }
+    ],
+    "authentication": [
+        "did:web:raw.githubusercontent.com:redongjun#z12KxfHu"
+    ],
+    "assertionMethod": [
+        "did:web:raw.githubusercontent.com:redongjun#z12KxfHu"
+    ],
+    "capabilityDelegation": [
+        "did:web:raw.githubusercontent.com:redongjun#z12KxfHu"
+    ],
+    "capabilityInvocation": [
+        "did:web:raw.githubusercontent.com:redongjun#z12KxfHu"
+    ]
+}
